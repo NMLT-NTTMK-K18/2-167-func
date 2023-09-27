@@ -2,6 +2,7 @@
 using namespace std;
 float multiply(float, float);
 float divide(float, float);
+
 int main()
 {
 	cout << "Nhap x = ";

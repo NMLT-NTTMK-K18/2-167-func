@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+int timHangChuc(int);
 
 int main()
 {
@@ -7,8 +8,14 @@ int main()
 	int n;
 	cin >> n;
 
-	int hc = (n / 10) % 10;
+	int hc;
+	hc = timHangChuc(n);
 	cout << "hc = " << hc;
 
 	return 0;
+}
+
+int timHangChuc(int x)
+{
+	return x / 10 % 10;
 }

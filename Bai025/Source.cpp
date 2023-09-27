@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+void traoDoiViTri(int &, int &);
 
 int main()
 {
@@ -9,11 +10,16 @@ int main()
 	cout << "Nhap b = ";
 	cin >> b;
 
-	int temp = a;
-	a = b;
-	b = temp;
+	traoDoiViTri(a, b);
 	cout << "a = " << a << endl;
 	cout << "b = " << b;
 
 	return 0;
+}
+
+void traoDoiViTri(int &x, int &y)
+{
+	int temp = x;
+	x = y;
+	y = temp;
 }

@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+int timDonVi(int);
 
 int main()
 {
@@ -7,8 +8,14 @@ int main()
 	int n;
 	cin >> n;
 
-	int dv = n % 10;
+	int dv;
+	dv = timDonVi(n);
 	cout << "dv = " << dv;
 
 	return 0;
+}
+
+int timDonVi(int x)
+{
+	return x % 10;
 }
