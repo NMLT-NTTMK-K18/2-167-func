@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+float tinhDienTich(float, int);
 
 int main()
 {
@@ -13,8 +14,14 @@ int main()
 	int n;
 	cin >> n;
 
-	float s = (float)1 / 2 * n * r * r * sin(2 * M_PI / n);
+	float s;
+	s = tinhDienTich(r, n);
 	cout << "Dien tich da giac deu " << n << " canh noi tiep trong duong tron ban kinh " << r << " = " << s;
 
 	return 0;
+}
+
+float tinhDienTich(float rr, int nn)
+{
+	return (float)1 / 2 * nn * rr * rr * sin(2 * M_PI / nn);
 }

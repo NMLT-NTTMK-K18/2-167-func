@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+float tinhChuVi(float);
 
 int main()
 {
@@ -9,8 +10,14 @@ int main()
 	float r;
 	cin >> r;
 
-	float v = 4 / 3 * M_PI * pow(r, 3);
-	cout << "The tich cua hinh cau=" << v;
+	float p;
+	p = tinhChuVi(r);
+	cout << "Chu vi cua duong tron = " << p;
 
 	return 0;
+}
+
+float tinhChuVi(float rr)
+{
+	return 2 * M_PI * rr;
 }

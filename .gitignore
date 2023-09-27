@@ -9,4 +9,4 @@
 **/*.exe
 
 # Python
-change_format.py
+**/*.py
