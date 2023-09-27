@@ -2,6 +2,7 @@
 .vs
 .vscode
 **/*test*
+**/*temp*
 
 # VS
 **/x64

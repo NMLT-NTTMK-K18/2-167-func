@@ -1,5 +1,5 @@
-#include <iostream>
-#include <cmath>
+#include<iostream>
+#include<cmath>
 using namespace std;
 
 int main()
@@ -7,7 +7,7 @@ int main()
 	int x;
 	cout << "Nhap x: ";
 	cin >> x;
-
+	
 	int n;
 	cout << "Nhap n: ";
 	cin >> n;
