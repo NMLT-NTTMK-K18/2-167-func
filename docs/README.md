@@ -12,28 +12,18 @@
 
 ## TOOLS USED
 
-<style>
-.svg-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 9vh;
-}
-
-.svg-image {
-    width: 50px;
-    height: auto;
-    margin: 0 10px;
-}
-</style>
-
-<div class="svg-container">
-    <img class="svg-image" src="img/visualstudio.svg" alt="Visual Studio">
-    <img class="svg-image" src="img/visualstudiocode.svg" alt="Visual Studio Code">
-    <img class="svg-image" src="img/git.svg" alt="Git">
-    <img class="svg-image" src="img/github.svg" alt="Github">
-    <img class="svg-image" src="img/codefactor.svg" alt="Code Factor">
-    <img class="svg-image" src="img/codecov.svg" alt="Code Cover">
+<div class="svg-container" style="
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    height: 9vh;
+                                ">
+    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/visualstudio.svg" alt="Visual Studio">
+    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/visualstudiocode.svg" alt="Visual Studio Code">
+    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/git.svg" alt="Git">
+    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/github.svg" alt="Github">
+    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/codefactor.svg" alt="Code Factor">
+    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/codecov.svg" alt="Code Cover">
 </div>
 
 ## INFO
