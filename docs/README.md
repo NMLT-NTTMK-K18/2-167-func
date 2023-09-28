@@ -12,13 +12,26 @@
 
 ## TOOLS USED
 
-<div class="svg-container" style="display: flex; justify-content: center; align-items: center; height: 9vh;">
-    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/visualstudio.svg" alt="Visual Studio">
-    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/visualstudiocode.svg" alt="Visual Studio Code">
-    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/git.svg" alt="Git">
-    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/github.svg" alt="Github">
-    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/codefactor.svg" alt="Code Factor">
-    <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/codecov.svg" alt="Code Cover">
+<style>
+    svg-image {
+    background-color: white;
+    color-scheme:light dark;
+    }
+    
+    @media (prefers-color-scheme:dark) {
+    svg-image {
+        background-color: black;
+    }
+    }
+</style>
+
+<div class="svg-container" style="display: flex; justify-content: center; align-items: center; height: 9vh;" align="center">
+    <img class="svg-image" style="width: 50px; margin: 0 10px; filter: brightness(0) invert(0.92);" src="img/visualstudio.svg" alt="Visual Studio">
+    <img class="svg-image" style="width: 50px; margin: 0 10px; filter: brightness(0) invert(0.92);" src="img/visualstudiocode.svg" alt="Visual Studio Code">
+    <img class="svg-image" style="width: 50px; margin: 0 10px; filter: brightness(0) invert(0.92);" src="img/git.svg" alt="Git">
+    <img class="svg-image" style="width: 50px; margin: 0 10px; filter: brightness(0) invert(0.92);" src="img/github.svg" alt="Github">
+    <img class="svg-image" style="width: 50px; margin: 0 10px; filter: brightness(0) invert(0.92);" src="img/codefactor.svg" alt="Code Factor">
+    <img class="svg-image" style="width: 50px; margin: 0 10px; filter: brightness(0) invert(0.92);" src="img/codecov.svg" alt="Code Cover">
 </div>
 
 ## INFO
