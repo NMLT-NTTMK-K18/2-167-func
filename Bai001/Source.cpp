@@ -17,7 +17,6 @@ int main()
 	float khoang_cach;
 	khoang_cach = TinhKhoangCach(x1, y1, x2, y2);
 	cout << "Khoang cach AB = " << khoang_cach;
-
 	return 0;
 }
 
