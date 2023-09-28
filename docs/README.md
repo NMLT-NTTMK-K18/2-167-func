@@ -12,12 +12,7 @@
 
 ## TOOLS USED
 
-<div class="svg-container" style="
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    height: 9vh;
-                                ">
+<div class="svg-container" style="display: flex; justify-content: center; align-items: center; height: 9vh;">
     <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/visualstudio.svg" alt="Visual Studio">
     <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/visualstudiocode.svg" alt="Visual Studio Code">
     <img class="svg-image" style="width: 50px; margin: 0 10px;" src="img/git.svg" alt="Git">
