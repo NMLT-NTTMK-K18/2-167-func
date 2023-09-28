@@ -13,7 +13,7 @@ int main()
 	int n;
 	cin >> n;
 
-	int s;
+	float s;
 	s = tinhS(k, n);
 
 	cout << "s = " << s;

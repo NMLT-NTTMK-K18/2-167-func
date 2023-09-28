@@ -12,7 +12,7 @@ int main()
 	int n;
 	cin >> n;
 
-	int s;
+	float s;
 	s = tinhS(x, n);
 
 	cout << "s = " << s;
@@ -22,8 +22,8 @@ int main()
 
 float tinhS(int xx, int nn)
 {
-	int s = 1;
-	int t = 1;
+	float s = 1;
+	float t = 1;
 	int i = 1;
 	while (i <= nn)
 	{

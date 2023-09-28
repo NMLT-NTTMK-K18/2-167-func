@@ -23,8 +23,8 @@ int main()
 float tinhS(int xx, int nn)
 {
 	float s = 1;
-	int t = 1;
-	int m = 1;
+	float t = 1;
+	float m = 1;
 	int i = 2;
 	while (i <= 2 * nn)
 	{
