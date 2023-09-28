@@ -1,5 +1,7 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
+float tinhS(int);
 
 int main()
 {
@@ -7,15 +9,22 @@ int main()
 	int n;
 	cin >> n;
 
-	float s = 0;
-	int i = 1;
-	while (i <= n)
-	{
-		s = s + pow(i, 3);
-		i = i + 1;
-	}
+	float s;
+	s = tinhS(n);
 
 	cout << "s = " << s;
 
 	return 0;
+}
+
+float tinhS(int nn)
+{
+	float ss = 0;
+	int i = 1;
+	while (i <= nn)
+	{
+		ss = ss + pow(i, 3);
+		i = i + 1;
+	}
+	return ss;
 }

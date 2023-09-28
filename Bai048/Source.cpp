@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+float tinhT(int, int);
 
 int main()
 {
@@ -11,15 +12,22 @@ int main()
 	cout << "Nhap n = ";
 	cin >> n;
 
-	float t = x;
-	int i = 1;
-	while (i <= n)
-	{
-		t = t * (x + i);
-		i = i + 1;
-	}
+	float t;
+	t = tinhT(x, n);
 
 	cout << "t = " << t;
 
 	return 0;
+}
+
+float tinhT(int xx, int nn)
+{
+	float tt = xx;
+	int i = 1;
+	while (i <= nn)
+	{
+		tt = tt * (xx + i);
+		i = i + 1;
+	}
+	return tt;
 }

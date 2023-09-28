@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+void traoDoiViTri(int &, int &);
 
 int main()
 {
@@ -8,12 +9,17 @@ int main()
 	cin >> a;
 	cout << "Nhap b = ";
 	cin >> b;
-	a = a + b;
-	b = a - b;
-	a = a - b;
+	traoDoiViTri(a, b);
 
 	cout << "a = " << a << endl;
 	cout << "b = " << b;
 
 	return 0;
+}
+
+void traoDoiViTri(int &x, int &y)
+{
+	x = x + y;
+	y = x - y;
+	x = x - y;
 }
