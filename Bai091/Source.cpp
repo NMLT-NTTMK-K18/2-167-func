@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 void Nhap(float&, int&);
-float Xuly(float&, int&);
+float Xuly(float, int);
 
 int main()
 {
@@ -18,7 +18,7 @@ void Nhap(float& xx, int& nn)
 	cout << "Nhap n =";
 	cin >> nn;
 }
-float Xuly(float& xx, int& nn)
+float Xuly(float xx, int nn)
 {
 	float s = -1;
 	float t = 1;

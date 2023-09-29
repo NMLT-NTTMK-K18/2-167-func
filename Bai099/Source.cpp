@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 void Nhap(int&);
-float Xuly(int&);
+float Xuly(int);
 
 
 int main()
@@ -12,12 +12,14 @@ int main()
 	cout << "s = " << Xuly(n);
 	return 0;
 }
+
 void Nhap(int& nn)
 {
 	cout << "Nhap n = ";
 	cin >> nn;
 }
-float Xuly(int& nn)
+
+float Xuly(int nn)
 {
 	float s = 0;
 	int i = 1;
