@@ -4,7 +4,6 @@ using namespace std;
 void Nhap(int&);
 float Xuly(int&);
 
-
 int main()
 {
 	int n;

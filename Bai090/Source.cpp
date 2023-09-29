@@ -2,6 +2,7 @@
 using namespace std;
 void Nhap(float&, int&);
 float Xuly(float&, int&);
+
 int main()
 {
 	float x;
