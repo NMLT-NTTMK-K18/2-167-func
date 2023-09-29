@@ -8,7 +8,7 @@
 
 [![DeepSource](https://app.deepsource.com/gh/KevinNitroG/167-functions.svg/?label=active+issues&show_trend=true&token=_jiQwrnpGoCdQ1dvyl6MZa16)](https://app.deepsource.com/gh/KevinNitroG/167-functions/) [![DeepSource](https://app.deepsource.com/gh/KevinNitroG/167-functions.svg/?label=resolved+issues&show_trend=true&token=_jiQwrnpGoCdQ1dvyl6MZa16)](https://app.deepsource.com/gh/KevinNitroG/167-functions/)
 
-![Codecov](https://img.shields.io/codecov/c/github/KevinNitroG/167-functions?style=for-the-badge)
+<!-- ![Codecov](https://img.shields.io/codecov/c/github/KevinNitroG/167-functions?style=for-the-badge) -->
 
 ## TOOL, PLATFORM, BOT, LANG
 
@@ -31,7 +31,7 @@
     <img height="30px" src="img/prettier-svgrepo-com.svg" alt="Prettier" />
     <img height="30px" src="img/deepsource-seeklogo.com.svg" alt="Deep Source" />
     <img height="30px" src="img/codefactor-icon-svgrepo-com.svg" alt="Code Factor" />
-    <img height="30px" src="img/codecov.svg" alt="Code Cover" />
+    <!-- <img height="30px" src="img/codecov.svg" alt="Code Cover" /> -->
     <br>
     <img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
     <img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
