@@ -1,27 +1,35 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
+void Nhap(float&, int&);
+float Xuly(float&, int&);
 
 int main()
 {
-	int x;
-	cout << "Nhap x: ";
-	cin >> x;
-
+	float x;
 	int n;
-	cout << "Nhap n: ";
-	cin >> n;
-
+	Nhap(x,n);
+	cout << "s = " << Xuly(x,n);
+	return 0;
+}
+void Nhap(float& xx, int& nn)
+{
+	cout << "Nhap x = ";
+	cin >> xx;
+	cout << "Nhap n =";
+	cin >> nn;
+}
+float Xuly(float& xx, int& nn)
+{
 	float s = 0;
 	int t = 1;
 	int i = 1;
 
-	while (i <= n)
+	while (i <= nn)
 	{
-		t = t * x;
+		t = t * xx;
 		s = sqrt(t + s);
 		i = i + 1;
 	}
-	cout << "s = " << s;
-	return 0;
+	return s;
 }
