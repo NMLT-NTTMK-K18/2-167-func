@@ -11,6 +11,8 @@ concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
 
+permissions: write-all
+
 jobs:
   check:
     name: Check Code
@@ -25,8 +27,8 @@ jobs:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
           verbose: true
 
-      - name: Install npm v8
-        run: npm i -g npm@8
+      # - name: Install npm v8
+      #   run: npm i -g npm@8
 
       # - name: Prettify code
       #   uses: creyD/prettier_action@v4.3
@@ -41,10 +43,10 @@ jobs:
           style: file
           files-changed-only: false
 
-      - name: Github Commit & Push
-        run: |
-          git config --global user.name ${{ secrets.MY_USERNAME }}
-          git config --global user.email ${{ secrets.MY_EMAIL }}
-          git add .
-          git commit -m "Prettify code"
-          git push
+      # - name: Github Commit & Push
+      #   run: |
+      #     git config --global user.name ${{ secrets.MY_USERNAME }}
+      #     git config --global user.email ${{ secrets.MY_EMAIL }}
+      #     git add .
+      #     git commit -m "Prettify code"
+      #     git push
