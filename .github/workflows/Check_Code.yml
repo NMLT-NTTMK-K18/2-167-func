@@ -28,10 +28,10 @@ jobs:
       - name: Install npm v8
         run: npm i -g npm@8
 
-      - name: Prettify code
-        uses: creyD/prettier_action@v4.3
-        with:
-          prettier_options: --write "**/*.{md}" --tab-width 4 --use-tabs --no-bracket-spacing --prose-wrap preserve --end-of-line auto
+      # - name: Prettify code
+      #   uses: creyD/prettier_action@v4.3
+      #   with:
+      #     prettier_options: --write "**/*.{md}" --tab-width 4 --use-tabs --no-bracket-spacing --prose-wrap preserve --end-of-line auto
 
       - name: Clang Format Lint
         uses: DoozyX/clang-format-lint-action@v0.16.2
