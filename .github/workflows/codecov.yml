@@ -28,4 +28,4 @@ jobs:
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
-          prettier_options: --write "**/*.{cpp,md}" --tab-width 4 --use-tabs --no-bracket-spacing --prose-wrap --end-of-line auto
+          prettier_options: --write "**/*.{cpp,md}" --tab-width 4 --use-tabs --no-bracket-spacing --prose-wrap preserve --end-of-line auto
