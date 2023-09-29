@@ -26,3 +26,11 @@ int main()
 	cout << "s = " << s;
 	return 0;
 }
+void Nhap(float& xx, int& nn)
+{
+	cout << "Nhap x = ";
+	cin >> xx;
+	cout << "Nhap n =";
+	cin >> nn;
+}
+float Xuly()
