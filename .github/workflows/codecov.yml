@@ -1,4 +1,4 @@
-name: Code Cover
+name: Check Code
 
 on:
   push:
@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   check:
-    name: Code Cover
+    name: Check Code
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,3 +24,8 @@ jobs:
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
           verbose: true
+
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.3
+        with:
+          prettier_options: --write "**/*.{cpp,md}" --tab-width 4 --use-tabs --no-bracket-spacing --prose-wrap --end-of-line auto
