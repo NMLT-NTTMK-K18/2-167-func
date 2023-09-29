@@ -33,8 +33,13 @@ jobs:
       #   with:
       #     prettier_options: --write "**/*.{md}" --tab-width 4 --use-tabs --no-bracket-spacing --prose-wrap preserve --end-of-line auto
 
-      - name: Clang Format Lint
-        uses: DoozyX/clang-format-lint-action@v0.16.2
+      - name: CPP Linter
+        uses: cpp-linter/cpp-linter-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          style: file
+          files-changed-only: false
 
       - name: Github Commit & Push
         run: |
