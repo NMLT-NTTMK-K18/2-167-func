@@ -9,7 +9,7 @@ int main()
 	int n;
 	Nhap(x, n);
 	cout << "s = " << Xuly(x, n);
-
+	return 0;
 }
 void Nhap(float& xx, int& nn)
 {

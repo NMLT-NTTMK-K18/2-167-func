@@ -12,6 +12,7 @@ int main()
 	Nhap(x, n);
 	Xuat(x, n);
 	cout <<"s="<<Xuly(x,n);
+	return 0;
 }
 void Nhap(float& xx, int& nn)
 {
