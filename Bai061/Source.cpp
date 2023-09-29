@@ -1,13 +1,25 @@
 #include <iostream>
 using namespace std;
+int demSoLuongChuSoLe(int);
+
 int main()
 {
-	cout << "Nhap n=";
+	cout << "Nhap n = ";
 	int n;
 	cin >> n;
 
+	int dem;
+	dem = demSoLuongChuSoLe(n);
+
+	cout << "So luong chu so le cua so nguyen duong " << n << " la: " << dem;
+
+	return 0;
+}
+
+int demSoLuongChuSoLe(int nn)
+{
 	int dem = 0;
-	int t = n;
+	int t = nn;
 	while (t != 0)
 	{
 		int dv = t % 10;
@@ -15,8 +27,5 @@ int main()
 			dem = dem + 1;
 		t = t / 10;
 	}
-
-	cout << "So luong chu so le cua so nguyen duong " << n << " la: " << dem;
-
-	return 0;
+	return dem;
 }

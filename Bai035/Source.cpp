@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+int tinhT(int);
 
 int main()
 {
@@ -7,15 +8,22 @@ int main()
 	int n;
 	cin >> n;
 
-	float t = 1;
-	int i = 1;
-	while (i <= n)
-	{
-		t = t * i;
-		i = i + 1;
-	}
+	float t;
+	t = tinhT(n);
 
 	cout << "t = " << t;
 
 	return 0;
+}
+
+int tinhT(int nn)
+{
+	float tt = 1;
+	int i = 1;
+	while (i <= nn)
+	{
+		tt = tt * i;
+		i = i + 1;
+	}
+	return tt;
 }

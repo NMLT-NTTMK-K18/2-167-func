@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+float tinhS(int);
 
 int main()
 {

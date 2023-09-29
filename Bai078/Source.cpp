@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+float tinhS(int, int);
+
 int main()
 {
 	cout << "Nhap x = ";
@@ -10,17 +12,24 @@ int main()
 	int n;
 	cin >> n;
 
-	int s = 1;
-	int t = 1;
-	int i = 1;
-	while (i <= n)
-	{
-		t = t * x;
-		s = s + t;
-		i++;
-	}
+	float s;
+	s = tinhS(x, n);
 
 	cout << "s = " << s;
 
 	return 0;
+}
+
+float tinhS(int xx, int nn)
+{
+	float s = 1;
+	float t = 1;
+	int i = 1;
+	while (i <= nn)
+	{
+		t = t * xx;
+		s = s + t;
+		i++;
+	}
+	return s;
 }

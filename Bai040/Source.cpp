@@ -1,18 +1,29 @@
 #include <iostream>
 using namespace std;
+float tinhS(int);
 
 int main()
 {
-	cout << "Nhap n=";
+	cout << "Nhap n = ";
 	int n;
 	cin >> n;
-	float s = 0;
+
+	float s;
+	s = tinhS(n);
+
+	cout << "s = " << s;
+
+	return 0;
+}
+
+float tinhS(int nn)
+{
+	float ss = 0;
 	int i = 1;
-	while (i <= n)
+	while (i <= nn)
 	{
-		s= s +i*(i+1);
+		ss = ss + i * (i + 1);
 		i = i + 1;
 	}
-	cout << "s=" << s;
-	return 0;
+	return ss;
 }

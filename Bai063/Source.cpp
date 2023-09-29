@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+int tinhTichCacChuSoLe(int);
 
 int main()
 {
@@ -7,8 +8,18 @@ int main()
 	int n;
 	cin >> n;
 
+	int tich;
+	tich = tinhTichCacChuSoLe(n);
+
+	cout << "Tich cac chu so le cua so nguyen duong " << n << " la: " << tich;
+
+	return 0;
+}
+
+int tinhTichCacChuSoLe(int nn)
+{
 	int tich = 1;
-	int t = n;
+	int t = nn;
 	while (t != 0)
 	{
 		int dv = t % 10;
@@ -16,8 +27,5 @@ int main()
 			tich = tich * dv;
 		t = t / 10;
 	}
-
-	cout << "Tich cac chu so le cua so nguyen duong " << n << " la: " << tich;
-
-	return 0;
+	return tich;
 }

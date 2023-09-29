@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+float tinhS(int, int);
 
 int main()
 {
@@ -7,18 +8,25 @@ int main()
 	int n;
 	cin >> n;
 
-	int s = 0;
-	int t = 1;
+	float s;
+	s = tinhS(n, n);
+
+	cout << "s = " << s;
+
+	return 0;
+}
+
+float tinhS(int xx, int nn)
+{
+	float s = 0;
+	float t = 1;
 	int i = 1;
-	while (i <= n)
+	while (i <= nn)
 	{
 		t = t * i;
 		s = s + i * t;
 		i = i + 1;
 		;
 	}
-
-	cout << "s = " << s;
-
-	return 0;
+	return s;
 }
