@@ -23,18 +23,23 @@
 </div> -->
 
 <div class="svg-container" align="left">
-    <img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" />
-    <img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Visual Studio Code" />
-    <img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
-    <img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github" />
+    <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" />
+    <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Visual Studio Code" />
+    <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+    <!-- <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github" /> -->
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="img/icons8-github-for-darkmode.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+        <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github" />
+    </picture>
     <br>
-    <img height="30px" src="img/prettier-svgrepo-com.svg" alt="Prettier" />
-    <img height="30px" src="img/deepsource-seeklogo.com.svg" alt="Deep Source" />
-    <img height="30px" src="img/codefactor-icon-svgrepo-com.svg" alt="Code Factor" />
+    <img height="40px" src="img/prettier-svgrepo-com.svg" alt="Prettier" />
+    <img height="40px" src="img/deepsource-seeklogo.com.svg" alt="Deep Source" />
+    <img height="40px" src="img/codefactor-icon-svgrepo-com.svg" alt="Code Factor" />
     <!-- <img height="30px" src="img/codecov.svg" alt="Code Cover" /> -->
     <br>
-    <img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
-    <img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
+    <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+    <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
 </div>
 
 ## INFO
