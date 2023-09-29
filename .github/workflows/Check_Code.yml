@@ -32,3 +32,14 @@ jobs:
         uses: creyD/prettier_action@v4.3
         with:
           prettier_options: --write "**/*.{md}" --tab-width 4 --use-tabs --no-bracket-spacing --prose-wrap preserve --end-of-line auto
+
+      - name: Clang Format Lint
+        uses: DoozyX/clang-format-lint-action@v0.16.2
+
+      - name: Github Commit & Push
+        run: |
+          git config --global user.name ${{ secrets.MY_USERNAME }}
+          git config --global user.email ${{ secrets.MY_EMAIL }}
+          git add .
+          git commit -m "Prettify code"
+          git push
