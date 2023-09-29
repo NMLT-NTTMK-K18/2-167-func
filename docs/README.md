@@ -36,6 +36,7 @@
     <img height="40px" src="img/prettier-svgrepo-com.svg" alt="Prettier" />
     <img height="40px" src="img/deepsource-seeklogo.com.svg" alt="Deep Source" />
     <img height="40px" src="img/codefactor-icon-svgrepo-com.svg" alt="Code Factor" />
+    <img height="40px" src="img/gitguardian.svg" alt="Gitguardian" />
     <!-- <img height="30px" src="img/codecov.svg" alt="Code Cover" /> -->
     <br>
     <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
