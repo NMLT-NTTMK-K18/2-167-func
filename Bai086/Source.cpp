@@ -8,7 +8,6 @@ int main()
 	float x;
 	int n;
 	Nhap(x, n);
-	Xuly(x, n);
 	cout << "s = " << Xuly(x, n);
 	return 0;
 }
