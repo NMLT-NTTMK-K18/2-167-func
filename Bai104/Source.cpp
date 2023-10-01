@@ -1,8 +1,15 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
+float Xuly();
 
 int main()
+{
+	cout << "s = " << Xuly();
+	return 0;
+}
+
+float Xuly()
 {
 	float s = 0;
 	float e = 0.5;
@@ -10,10 +17,9 @@ int main()
 
 	while (e >= pow(10, -6))
 	{
-		e = (float) 1 / (i * (i + 1));
+		e = (float)1 / (i * (i + 1));
 		s = s + e;
 		i = i + 1;
 	}
-	cout << "s = " << s;
-	return 0;
+	return s;
 }
