@@ -2,11 +2,17 @@
 
 ## BADGES
 
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/KevinNitroG/167-functions?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/KevinNitroG/167-functions?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/KevinNitroG/167-functions?style=for-the-badge)
+### REPO INFO
+[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/KevinNitroG/167-functions?style=for-the-badge)](../../../commits/main)
+![GitHub repo size](https://img.shields.io/github/repo-size/KevinNitroG/167-functions?style=for-the-badge)
+[![GitHub contributors](https://img.shields.io/github/contributors/KevinNitroG/167-functions?style=for-the-badge)](../../../graphs/contributors)
 
-![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/KevinNitroG/167-functions?style=for-the-badge)
+### CODE FACTOR
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/KevinNitroG/167-functions?style=for-the-badge)](https://www.codefactor.io/repository/github/kevinnitrog/167-functions)
 
-[![DeepSource](https://app.deepsource.com/gh/KevinNitroG/167-functions.svg/?label=active+issues&show_trend=true&token=_jiQwrnpGoCdQ1dvyl6MZa16)](https://app.deepsource.com/gh/KevinNitroG/167-functions/) [![DeepSource](https://app.deepsource.com/gh/KevinNitroG/167-functions.svg/?label=resolved+issues&show_trend=true&token=_jiQwrnpGoCdQ1dvyl6MZa16)](https://app.deepsource.com/gh/KevinNitroG/167-functions/)
+### DEEPSOURCE
+[![DeepSource](https://app.deepsource.com/gh/KevinNitroG/167-functions.svg/?label=active+issues&show_trend=true&token=_jiQwrnpGoCdQ1dvyl6MZa16)](https://app.deepsource.com/gh/KevinNitroG/167-functions/)
+[![DeepSource](https://app.deepsource.com/gh/KevinNitroG/167-functions.svg/?label=resolved+issues&show_trend=true&token=_jiQwrnpGoCdQ1dvyl6MZa16)](https://app.deepsource.com/gh/KevinNitroG/167-functions/)
 
 <!-- ![Codecov](https://img.shields.io/codecov/c/github/KevinNitroG/167-functions?style=for-the-badge) -->
 
