@@ -38,9 +38,14 @@ int main()
 		c = temp;
 	}
 
-	cout << "a = " << a << endl;
-	cout << "b = " << b << endl;
-	cout << "c = " << c << endl;
+	if (aa < cc && cc<bb)
+	{
+		cc = zzz;
+	}
 
-	return 0;
+	if (bb < cc && cc<aa)
+	{
+		cc = zzz;
+	}
+	return zzz;
 }
