@@ -1,24 +1,15 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
-void Nhap(int&);
-float Xuly(int);
+float Xuly();
 
 int main()
 {
-	int n;
-	Nhap(n);
-	cout << "pi = " << Xuly(n);
+	cout << "pi = " << Xuly();
 	return 0;
 }
 
-void Nhap(int& nn)
-{
-	cout << "Nhap n = ";
-	cin >> nn;
-}
-
-float Xuly(int)
+float Xuly()
 {
 	float s = 0;
 	int dau = 1;
