@@ -1,25 +1,44 @@
 #include<iostream>
+#include<iomanip>
 using namespace std;
+void Nhap(float&, float&);
+float Xulya(float, float);
+float Xulyb(float, float);
 
 int main()
 {
-	float a;
-	cout << "Nhap a: ";
-	cin >> a;
+	float a, b;
+	Nhap(a, b);
+	cout << "Gia tri tang dan la: " << Xulya(a, b)<<setw(4)<< Xulyb(a, b);
+	return 0;
+}
 
-	float b;
-	cout << "Nhap b: ";
-	cin >> b;
+void Nhap(float& aa, float& bb)
+{
+	cout << "Nhap a = ";
+	cin >> aa;
+	cout << "Nhap b = ";
+	cin >> bb;
+}
 
+float Xulyb(float aa, float bb)
+{
 	float temp;
 
-	if (a > b)
-	{
-		temp = a;
-		a = b;
-		b = temp;
-	}
+	if (aa > bb)
+		temp = aa;
+	else
+		temp = bb;
+	return temp;
+}
 
-	cout << "a = " << a << " va b = " << b;
-	return 0;
+float Xulya(float aa, float bb)
+{
+	float temp;
+
+	if (aa < bb)
+		temp = aa;
+	else
+		temp = bb;
+	return temp;
 }
