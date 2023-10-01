@@ -1,13 +1,16 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
+float Xuly();
 
 int main()
 {
-	int x;
-	cout << "Nhap x: ";
-	cin >> x;
+	cout << "s = " << Xuly();
+	return 0;
+}
 
+float Xuly()
+{
 	float s = 1;
 	int m = 1;
 	float e = 1;
@@ -20,6 +23,5 @@ int main()
 		s = s + e;
 		i = i + 1;
 	}
-	cout << "s = " << s;
-	return 0;
+	return s;
 }

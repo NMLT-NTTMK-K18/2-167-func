@@ -2,14 +2,26 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
+void Nhap(float&);
+float Xuly(float);
 
 int main()
 {
-	int x;
-	cout << "Nhap x: ";
-	cin >> x;
+	float x;
+	Nhap(x);
+	cout << "sin("<<x<<")"<< " = " << Xuly(x);
+	return 0;
+}
 
-	float xx = (x * M_PI) / 180;
+void Nhap(float& xxx)
+{
+	cout << " Nhap x = ";
+	cin >> xxx;
+}
+
+float Xuly(float xxx)
+{
+    float xx = (xxx * M_PI) / 180;
 	float s = xx;
 	float t = xx;
 	int m = 1;
@@ -26,6 +38,5 @@ int main()
 		dau = -dau;
 		i = i + 2;
 	}
-	cout << "s = " << s;
-	return 0;
+	return s;
 }
