@@ -1,23 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-void Nhap(float&,float&);
-void Xuly(float,float);
+void Nhap(float &, float &);
+void Xuly(float, float);
 
 int main()
 {
 	float a, b;
-	Nhap(a,b);
+	Nhap(a, b);
 	Xuly(a, b);
 	return 0;
 }
-void Nhap(float& aa,float& bb)
+void Nhap(float &aa, float &bb)
 {
 	cout << "Nhap a = ";
 	cin >> aa;
 
 	cout << "Nhap b = ";
 	cin >> bb;
-
 }
 
 void Xuly(float aa, float bb)

@@ -1,21 +1,21 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-void Nhap(float&, float&, float&,float&,float&,float&);
-int Xuly(float, float, float,float,float,float);
+void Nhap(float &, float &, float &, float &, float &, float &);
+int Xuly(float, float, float, float, float, float);
 
 int main()
 {
 	float xa, ya, xb, yb, xc, yc;
 	Nhap(xa, ya, xb, yb, xc, yc);
-	if (Xuly(xa,ya,xb,yb,xc,yc)==1)
-		cout<<"La tam giac";
+	if (Xuly(xa, ya, xb, yb, xc, yc) == 1)
+		cout << "La tam giac";
 	else
-	    cout << "Khong la tam giac";
+		cout << "Khong la tam giac";
 	return 0;
 }
 
-void Nhap(float& xa, float& ya, float& xb, float& yb, float& xc, float& yc)
+void Nhap(float &xa, float &ya, float &xb, float &yb, float &xc, float &yc)
 {
 	cout << "Nhap xA: ";
 	cin >> xa;
@@ -45,6 +45,5 @@ int Xuly(float xa, float ya, float xb, float yb, float xc, float yc)
 	if ((a + b > c) && (a + c > b) && (b + c > a))
 		return 1;
 	else
-	    return 0;
-
+		return 0;
 }

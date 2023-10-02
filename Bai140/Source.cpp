@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-void Nhap(float&, float&,float&);
-void Xuly(float, float,float);
+void Nhap(float &, float &, float &);
+void Xuly(float, float, float);
 
 int main()
 {
@@ -11,7 +11,7 @@ int main()
 	Xuly(a, b, c);
 	return 0;
 }
-void Nhap(float& aa, float& bb,float& cc)
+void Nhap(float &aa, float &bb, float &cc)
 {
 	cout << "Nhap a: ";
 	cin >> aa;
@@ -21,10 +21,9 @@ void Nhap(float& aa, float& bb,float& cc)
 
 	cout << "Nhap c: ";
 	cin >> cc;
-
 }
 
-void Xuly(float aa, float bb,float cc)
+void Xuly(float aa, float bb, float cc)
 {
 	float delta = bb * bb - 4 * aa * cc;
 	float x;

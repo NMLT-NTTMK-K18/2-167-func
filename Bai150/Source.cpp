@@ -1,6 +1,6 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-void Nhap(int&, int&);
+void Nhap(int &, int &);
 int Xuly(int, int);
 
 int main()
@@ -11,14 +11,13 @@ int main()
 	return 0;
 }
 
-void Nhap(int& aa, int& bb)
+void Nhap(int &aa, int &bb)
 {
 	cout << "Nhap a = ";
 	cin >> aa;
 
 	cout << "Nhap b = ";
 	cin >> bb;
-
 }
 
 int Xuly(int aa, int bb)
