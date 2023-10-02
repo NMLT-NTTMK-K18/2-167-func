@@ -1,41 +1,50 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+void Nhap(float&, float&, float&,float&,float&,float&);
+int Xuly(float, float, float,float,float,float);
 
 int main()
 {
-	float xA;
+	float xa, ya, xb, yb, xc, yc;
+	Nhap(xa, ya, xb, yb, xc, yc);
+	if (Xuly(xa,ya,xb,yb,xc,yc)==1)
+		cout<<"La tam giac";
+	else
+	    cout << "Khong la tam giac";
+	return 0;
+}
+
+void Nhap(float& xa, float& ya, float& xb, float& yb, float& xc, float& yc)
+{
 	cout << "Nhap xA: ";
-	cin >> xA;
+	cin >> xa;
 
-	float yA;
 	cout << "Nhap yA: ";
-	cin >> yA;
+	cin >> ya;
 
-	float xB;
 	cout << "Nhap xB: ";
-	cin >> xB;
+	cin >> xb;
 
-	float yB;
 	cout << "Nhap yB: ";
-	cin >> yB;
+	cin >> yb;
 
-	float xC;
 	cout << "Nhap xC: ";
-	cin >> xC;
+	cin >> xc;
 
-	float yC;
 	cout << "Nhap yC: ";
-	cin >> yC;
+	cin >> yc;
+}
 
-	float a = sqrt(pow(xB - xA, 2) + pow(yB - yA, 2));
-	float b = sqrt(pow(xC - xA, 2) + pow(yC - yA, 2));
-	float c = sqrt(pow(xC - xB, 2) + pow(yC - yB, 2));
+int Xuly(float xa, float ya, float xb, float yb, float xc, float yc)
+{
+	float a = sqrt(pow(xb - xa, 2) + pow(yb - ya, 2));
+	float b = sqrt(pow(xc - xa, 2) + pow(yc - ya, 2));
+	float c = sqrt(pow(xc - xb, 2) + pow(yc - yb, 2));
 
 	if ((a + b > c) && (a + c > b) && (b + c > a))
-		cout << "La tam giac";
+		return 1;
 	else
-		cout << "Khong la tam giac";
+	    return 0;
 
-	return 0;
 }
