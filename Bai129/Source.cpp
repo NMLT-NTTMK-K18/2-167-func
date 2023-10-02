@@ -1,20 +1,21 @@
-#include<iostream>
-#include<iomanip>
+#include <iostream>
+#include <iomanip>
 using namespace std;
-void Nhap(float&, float&,float&);
-float Xulya(float, float,float);
-float Xulyb(float, float,float);
-float Xulyc(float, float, float);
+void Nhap(float &, float &, float &);
+void XuLy(float &, float &, float &);
 
 int main()
 {
-	float a, b,c;
-	Nhap(a,b,c);
-	cout << "Gia tri tang dan la:" << Xulya(a,b, c) << setw(4) << Xulyc(a,b, c) << setw(4) << Xulyb(a,b, c);
+	float a, b, c;
+	Nhap(a, b, c);
+	XuLy(a, b, c);
+
+	cout << "Gia tri tang dan la:" << a << " " << b << " " << c;
+
 	return 0;
 }
 
-void Nhap(float& aa, float& bb,float& cc)
+void Nhap(float &aa, float &bb, float &cc)
 {
 	cout << "Nhap a = ";
 	cin >> aa;
@@ -24,56 +25,28 @@ void Nhap(float& aa, float& bb,float& cc)
 	cin >> cc;
 }
 
-float Xulya(float aa, float bb,float cc)
+void XuLy(float &aa, float &bb, float &cc)
 {
-	float temp=aa;
+	float temp;
 
-	if (aa>bb)
+	if (aa > bb)
 	{
-		temp=bb;
+		temp = aa;
+		aa = bb;
+		bb = temp;
 	}
 
-	if (temp >cc)
+	if (aa > cc)
 	{
-		temp=cc;
-	}
-	return temp;
-}
-
-float Xulyb(float aa, float bb, float cc)
-{
-	float yyy=aa;
-
-	if (aa < bb)
-	{
-		yyy=bb;
+		temp = aa;
+		aa = cc;
+		cc = temp;
 	}
 
-	if (yyy < cc)
+	if (bb > cc)
 	{
-		yyy=cc;
+		temp = bb;
+		bb = cc;
+		cc = temp;
 	}
-	return yyy;
-}
-
-float Xulyc(float aa, float bb, float cc)
-{
-	float zzz=aa;
-	if ((aa <= bb)&&(bb<=cc))
-	{
-		zzz=bb;
-	}
-
-	if (aa <= cc && cc<=bb)
-	{
-		zzz=cc;
-	}
-
-	if (bb <= cc && cc<=aa)
-	{
-		zzz=cc;
-	}
-	if (cc <= bb && bb <= aa)
-		zzz = bb;
-	return zzz;
 }
