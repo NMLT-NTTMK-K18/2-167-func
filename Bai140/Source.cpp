@@ -1,22 +1,32 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
+void Nhap(float&, float&,float&);
+void Xuly(float, float,float);
 
 int main()
 {
-	float a;
+	float a, b, c;
+	Nhap(a, b, c);
+	Xuly(a, b, c);
+	return 0;
+}
+void Nhap(float& aa, float& bb,float& cc)
+{
 	cout << "Nhap a: ";
-	cin >> a;
+	cin >> aa;
 
-	float b;
 	cout << "Nhap b: ";
-	cin >> b;
+	cin >> bb;
 
-	float c;
 	cout << "Nhap c: ";
-	cin >> c;
+	cin >> cc;
 
-	float delta = b * b - 4 * a * c;
+}
+
+void Xuly(float aa, float bb,float cc)
+{
+	float delta = bb * bb - 4 * aa * cc;
 	float x;
 	float x1;
 	float x2;
@@ -24,18 +34,16 @@ int main()
 	if (delta <= 0)
 		if (delta == 0)
 		{
-			x = -b / (2 * a);
+			x = -bb / (2 * aa);
 			cout << "x = " << x;
 		}
 		else
 			cout << "Vo nghiem";
 	else
 	{
-		x1 = (-b + sqrt(delta)) / (2 * a);
-		x2 = (-b - sqrt(delta)) / (2 * a);
+		x1 = (-bb + sqrt(delta)) / (2 * aa);
+		x2 = (-bb - sqrt(delta)) / (2 * aa);
 		cout << "x1 = " << x1 << endl;
 		cout << "x2 = " << x2 << endl;
 	}
-
-	return 0;
 }

@@ -1,19 +1,31 @@
 #include<iostream>
 #include<cmath>
 using namespace std;
+void Nhap(int&);
+int Xuly(int);
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
-	cin >> n;
+	Nhap(n);
+	cout << "dt = " << Xuly(n);
+	return 0;
+}
 
-	int dt = abs(n);
+void Nhap(int& nn)
+{
+	int n;
+	cout << "Nhap n: ";
+	cin >> nn;
+}
+
+int Xuly(int nn)
+{
+	int dt = abs(nn);
 
 	while (dt >= 10)
 		dt = dt / 10;
-	
-	cout << "dt = " << dt;
-
-	return 0;
+	return dt;
 }
+
+

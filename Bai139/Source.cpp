@@ -1,28 +1,37 @@
 #include<iostream>
 using namespace std;
+void Nhap(float&,float&);
+void Xuly(float,float);
 
 int main()
 {
-	float a;
-	cout << "Nhap a: ";
-	cin >> a;
+	float a, b;
+	Nhap(a,b);
+	Xuly(a, b);
+	return 0;
+}
+void Nhap(float& aa,float& bb)
+{
+	cout << "Nhap a = ";
+	cin >> aa;
 
-	float b;
-	cout << "Nhap b: ";
-	cin >> b;
+	cout << "Nhap b = ";
+	cin >> bb;
 
+}
+
+void Xuly(float aa, float bb)
+{
 	float x;
 
-	if (a == 0)
-		if (b == 0)
+	if (aa == 0)
+		if (bb == 0)
 			cout << "Vo so nghiem";
 		else
 			cout << "Vo nghiem";
 	else
 	{
-		x = -b / a;
+		x = -bb / aa;
 		cout << "x = " << x;
 	}
-
-	return 0;
 }

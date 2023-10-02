@@ -1,14 +1,30 @@
 #include<iostream>
 using namespace std;
+void Nhap(int&);
+int Xuly(int);
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
-	cin >> n;
+	Nhap(n);
+	if (Xuly(n) == 1)
+		cout << "TL";
+	else
+		cout << "Ko TL";
+	return 0;
+}
 
+void Nhap(int& nn)
+{
+	int n;
+	cout << "Nhap n: ";
+	cin >> nn;
+}
+
+int Xuly(int nn)
+{
 	int flag = 1;
-	int t = n;
+	int t = nn;
 	int dv;
 
 	while (t != 0)
@@ -20,9 +36,8 @@ int main()
 	}
 
 	if (flag == 1)
-		cout << "La TL";
+		return 1;
 	else
-		cout << "Ko TL";
+		return 0;
 
-	return 0;
 }

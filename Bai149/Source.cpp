@@ -1,18 +1,29 @@
 #include<iostream>
 using namespace std;
+void Nhap(int&, int&);
+int Xuly(int, int);
 
 int main()
 {
-	int a;
-	cout << "Nhap a: ";
-	cin >> a;
+	int a, b;
+	Nhap(a, b);
+	cout << "UCLN = "<<Xuly(a, b);
+	return 0;
+}
+void Nhap(int& aa, int& bb)
+{
+	cout << "Nhap a = ";
+	cin >> aa;
 
-	int b;
-	cout << "Nhap b: ";
-	cin >> b;
+	cout << "Nhap b = ";
+	cin >> bb;
 
-	int m = abs(a);
-	int n = abs(b);
+}
+
+int Xuly(int aa, int bb)
+{
+	int m = abs(aa);
+	int n = abs(bb);
 
 	while (m * n != 0)
 	{
@@ -21,9 +32,6 @@ int main()
 		else
 			n = n - m;
 	}
-
 	int ucln = m + n;
-	cout << "ucln = " << ucln;
-
-	return 0;
+	return ucln;
 }
