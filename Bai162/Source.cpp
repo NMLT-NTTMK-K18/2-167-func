@@ -1,14 +1,30 @@
 #include <iostream>
 using namespace std;
+void Nhap(int&);
+int Xuly(int);
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
-	cin >> n;
+	Nhap(n);
+	if (Xuly(n) == 1)
+		cout << "Giam";
+	else
+		cout << "Khong giam";
+	return 0;
+}
 
+void Nhap(int& nn)
+{
+	int n;
+	cout << "Nhap n: ";
+	cin >> nn;
+}
+
+int Xuly(int nn)
+{
 	int flag = 1;
-	int t = n;
+	int t = nn;
 	int dv;
 	int hc;
 
@@ -20,11 +36,5 @@ int main()
 			flag = 0;
 		t = t / 10;
 	}
-
-	if (flag == 1)
-		cout << "Giam";
-	else
-		cout << "Ko Giam";
-
-	return 0;
+	return flag;
 }
