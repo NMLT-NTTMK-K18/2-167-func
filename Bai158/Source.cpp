@@ -1,15 +1,28 @@
 #include<iostream>
 using namespace std;
+void Nhap(int&);
+int Xuly(int);
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
-	cin >> n;
+	Nhap(n);
+	cout << "So luong chu so lon nhat cua so nguyen duong " << n <<"la : "<<Xuly(n);
+	return 0;
+}
 
-	int lc = n % 10;
+void Nhap(int& nn)
+{
+	int n;
+	cout << "Nhap n: ";
+	cin >> nn;
+}
+
+int Xuly(int nn)
+{
+	int lc = nn % 10;
 	int dem = 0;
-	int t = n;
+	int t = nn;
 	int dv;
 
 	while (t != 0)
@@ -20,7 +33,7 @@ int main()
 		t = t / 10;
 	}
 
-	t = n;
+	t = nn;
 
 	while (t != 0)
 	{
@@ -29,8 +42,5 @@ int main()
 			dem = dem + 1;
 		t = t / 10;
 	}
-
-	cout << "dem = " << dem;
-
-	return 0;
+	return dem;
 }

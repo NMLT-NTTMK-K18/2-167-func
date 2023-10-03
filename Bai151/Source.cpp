@@ -35,8 +35,5 @@ int Xuly(int nn)
 			flag = 0;
 		t = t / 2;
 	}
-	if (flag==1)
-		return 1;
-	else
-		return 0;
+	return flag;
 }

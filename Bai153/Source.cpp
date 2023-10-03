@@ -8,7 +8,7 @@ int main()
 	int n;
 	Nhap(n);
 
-	if(Xuly(n))
+	if(Xuly(n)==1)
 		cout << "La dang";
 	else
 		cout << "Ko la dang";
@@ -36,8 +36,5 @@ int Xuly(int nn)
 		t = t / 5;
 	}
 
-	if (flag == 1)
-		return 1;
-	else
-		return 0;
+	return flag;
 }
