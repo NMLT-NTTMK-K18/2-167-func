@@ -1,6 +1,6 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-void Nhap(int&);
+void Nhap(int &);
 float Xuly(int);
 
 int main()
@@ -12,7 +12,7 @@ int main()
 	return 0;
 }
 
-void Nhap(int& nn)
+void Nhap(int &nn)
 {
 	cout << " Nhap n = ";
 	cin >> nn;
@@ -26,7 +26,6 @@ float Xuly(int nn)
 
 	while (i <= nn)
 	{
-
 		ahh = at + 2 * i + 1;
 		i = i + 1;
 		at = ahh;
