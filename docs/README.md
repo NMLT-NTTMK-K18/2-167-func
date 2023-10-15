@@ -4,9 +4,9 @@
 
 ### REPO INFO
 
-[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/NMLT-NTTMK-K18/2-167-func?style=for-the-badge)](../../../commits/main)
-![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/2-167-func?style=for-the-badge)
-[![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/2-167-func?style=for-the-badge)](../../../graphs/contributors)
+[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/NMLT-NTTMK-K18/2-167-func-B-K?style=for-the-badge)](../../../commits/main)
+![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/2-167-func-B-K?style=for-the-badge)
+[![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/2-167-func-B-K?style=for-the-badge)](../../../graphs/contributors)
 
 ## TOOL, PLATFORM, BOT, LANG
 
