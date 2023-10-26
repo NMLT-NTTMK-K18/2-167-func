@@ -1,38 +1,28 @@
-# 167 CODES WITH FUNCTIONS 🫠
+# 2 - 167 - FUNC - B & K 🫠
 
-## BADGES
+![STT - 2](https://img.shields.io/badge/STT-2-EDB7ED?style=for-the-badge)
+![Bài tập - 2 Function](https://img.shields.io/badge/b%C3%A0i_t%E1%BA%ADp-167_function-8DDFCB?style=for-the-badge)
+![Ải - 4](https://img.shields.io/badge/%E1%BA%A3i-4-ECEE81?style=for-the-badge)
 
-### REPO INFO
+---
 
-[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/NMLT-NTTMK-K18/2-167-func-B-K?style=for-the-badge)](../../../commits/main)
-![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/2-167-func-B-K?style=for-the-badge)
-[![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/2-167-func-B-K?style=for-the-badge)](../../../graphs/contributors)
+## REPO INFO
 
-## TOOL, PLATFORM, BOT, LANG
+[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/NMLT-NTTMK-K18/2-167-func-B-K?style=for-the-badge&color=CAEDFF)](../../../commits/main)
+![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/2-167-func-B-K?style=for-the-badge&color=D8B4F8)
+[![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/2-167-func-B-K?style=for-the-badge&color=FBF0B2)](../../../graphs/contributors)
+[![CodeFactor](https://img.shields.io/codefactor/grade/github/nmlt-nttmk-k18/2-167-func-B-K?style=for-the-badge)](https://www.codefactor.io/repository/github/nmlt-nttmk-k18/2-167-func-B-K)
 
-<div class="svg-container" align="left">
-    <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" />
-    <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Visual Studio Code" />
-    <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="img/icons8-github-for-darkmode.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
-        <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github" />
-    </picture>
-    <br>
-    <img height="40px" src="img/prettier-svgrepo-com.svg" alt="Prettier" />
-    <img height="40px" src="https://avatars.githubusercontent.com/u/25180681?v=4" alt="Renovate Bot" />
-    <img height="40px" src="img/gitguardian.svg" alt="Gitguardian" />
-    <br>
-    <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
-    <img height="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
-</div>
+[![WorkedProject Badge](https://img.shields.io/badge/progress-231%20%2F%20258-82A0D8?style=for-the-badge)](./UnworkedProject.md)
 
-## INFO
+[![RAR Source](https://img.shields.io/badge/rar_source-download-FF8080?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_BT02.rar/)
+[![TXT Github Link](https://img.shields.io/badge/txt_github_link-download-8CB369?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_BT02.txt/)
 
-Làm bài tập nhóm `167 functions`, từ 167 bài 1 func main → các func chia nhỏ
+---
 
 ## MEMBERS
 
--   [Trần Nguyễn Thái Bình](https://github.com/KevinNitroG) _(23520161)_
--   [Trương Hoàng Khiêm](https://github.com/truonghoangkhiem) _(23520730)_
+| **STT** | **MEMBER**            |                   **GITHUB USERNAME**                   | **MSSV** |
+| :-----: | :-------------------- | :-----------------------------------------------------: | -------- |
+|    1    | Trần Nguyễn Thái Bình |      [KevinNitroG](https://github.com/KevinNitroG)      | 23520161 |
+|    2    | Trương Hoàng Khiêm    | [truonghoangkhiem](https://github.com/truonghoangkhiem) | 23520730 |
