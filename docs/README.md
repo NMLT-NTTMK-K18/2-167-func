@@ -14,7 +14,6 @@
 [![CodeFactor](https://img.shields.io/codefactor/grade/github/nmlt-nttmk-k18/2-167-func-B-K?style=for-the-badge)](https://www.codefactor.io/repository/github/nmlt-nttmk-k18/2-167-func-B-K)
 
 [![WorkedProject Badge](https://img.shields.io/badge/progress-167%20%2F%20167-82A0D8?style=for-the-badge)](./UnworkedProject.md)
-
 [![RAR Source](https://img.shields.io/badge/rar_source-download-FF8080?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_BT02.rar/)
 [![TXT Github Link](https://img.shields.io/badge/txt_github_link-download-8CB369?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_BT02.txt/)
 
